@@ -14,6 +14,7 @@
 		EE968F301F7D917F0004E654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE968F2F1F7D917F0004E654 /* Assets.xcassets */; };
 		EE968F331F7D917F0004E654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE968F311F7D917F0004E654 /* LaunchScreen.storyboard */; };
 		EE968F411F7DCA4E0004E654 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE968F401F7DCA4E0004E654 /* DataService.swift */; };
+		EE9A960C1F7DCF9D0008274E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE968F421F7DCE750004E654 /* GradientView.swift */; };
 		F0EC25EA61EA5C48FC3A4E9D /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70D9205C6096451052CA38F /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		EE968F341F7D917F0004E654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE968F3E1F7DC7C10004E654 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EE968F401F7DCA4E0004E654 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		EE968F421F7DCE750004E654 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		EE968F3B1F7D918F0004E654 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EE968F421F7DCE750004E654 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				EE968F2B1F7D917F0004E654 /* SecondViewController.swift in Sources */,
 				EE968F271F7D917F0004E654 /* AppDelegate.swift in Sources */,
+				EE9A960C1F7DCF9D0008274E /* GradientView.swift in Sources */,
 				EE968F291F7D917F0004E654 /* FirstViewController.swift in Sources */,
 				EE968F411F7DCA4E0004E654 /* DataService.swift in Sources */,
 			);
