@@ -56,15 +56,47 @@
 		EE968F251F7D917F0004E654 /* Breakpoint */ = {
 			isa = PBXGroup;
 			children = (
+				EE968F3D1F7D919C0004E654 /* Extensions */,
+				EE968F3C1F7D91970004E654 /* Model */,
+				EE968F3B1F7D918F0004E654 /* View */,
+				EE968F3A1F7D91850004E654 /* Controller */,
 				EE968F261F7D917F0004E654 /* AppDelegate.swift */,
-				EE968F281F7D917F0004E654 /* FirstViewController.swift */,
-				EE968F2A1F7D917F0004E654 /* SecondViewController.swift */,
 				EE968F2C1F7D917F0004E654 /* Main.storyboard */,
 				EE968F2F1F7D917F0004E654 /* Assets.xcassets */,
 				EE968F311F7D917F0004E654 /* LaunchScreen.storyboard */,
 				EE968F341F7D917F0004E654 /* Info.plist */,
 			);
 			path = Breakpoint;
+			sourceTree = "<group>";
+		};
+		EE968F3A1F7D91850004E654 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE968F281F7D917F0004E654 /* FirstViewController.swift */,
+				EE968F2A1F7D917F0004E654 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE968F3B1F7D918F0004E654 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE968F3C1F7D91970004E654 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE968F3D1F7D919C0004E654 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
