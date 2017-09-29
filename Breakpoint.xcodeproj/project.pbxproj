@@ -15,6 +15,11 @@
 		EE968F331F7D917F0004E654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE968F311F7D917F0004E654 /* LaunchScreen.storyboard */; };
 		EE968F411F7DCA4E0004E654 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE968F401F7DCA4E0004E654 /* DataService.swift */; };
 		EE9A960C1F7DCF9D0008274E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE968F421F7DCE750004E654 /* GradientView.swift */; };
+		EE9BF5D01F7EB3420053E705 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF5CF1F7EB3420053E705 /* AuthVC.swift */; };
+		EE9BF5D21F7EB4660053E705 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF5D11F7EB4660053E705 /* LoginVC.swift */; };
+		EE9BF5D41F7EB4C70053E705 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF5D31F7EB4C70053E705 /* InsetTextField.swift */; };
+		EE9BF5D51F7EE1730053E705 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE968F3E1F7DC7C10004E654 /* GoogleService-Info.plist */; };
+		EE9BF5D71F7EE3B00053E705 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF5D61F7EE3B00053E705 /* ShadowView.swift */; };
 		F0EC25EA61EA5C48FC3A4E9D /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70D9205C6096451052CA38F /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +38,10 @@
 		EE968F3E1F7DC7C10004E654 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EE968F401F7DCA4E0004E654 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		EE968F421F7DCE750004E654 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		EE9BF5CF1F7EB3420053E705 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		EE9BF5D11F7EB4660053E705 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EE9BF5D31F7EB4C70053E705 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		EE9BF5D61F7EE3B00053E705 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,8 @@
 			children = (
 				EE968F281F7D917F0004E654 /* FirstViewController.swift */,
 				EE968F2A1F7D917F0004E654 /* SecondViewController.swift */,
+				EE9BF5CF1F7EB3420053E705 /* AuthVC.swift */,
+				EE9BF5D11F7EB4660053E705 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -113,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				EE968F421F7DCE750004E654 /* GradientView.swift */,
+				EE9BF5D31F7EB4C70053E705 /* InsetTextField.swift */,
+				EE9BF5D61F7EE3B00053E705 /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE968F331F7D917F0004E654 /* LaunchScreen.storyboard in Resources */,
+				EE9BF5D51F7EE1730053E705 /* GoogleService-Info.plist in Resources */,
 				EE968F301F7D917F0004E654 /* Assets.xcassets in Resources */,
 				EE968F2E1F7D917F0004E654 /* Main.storyboard in Resources */,
 			);
@@ -262,7 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9BF5D71F7EE3B00053E705 /* ShadowView.swift in Sources */,
+				EE9BF5D01F7EB3420053E705 /* AuthVC.swift in Sources */,
 				EE968F2B1F7D917F0004E654 /* SecondViewController.swift in Sources */,
+				EE9BF5D21F7EB4660053E705 /* LoginVC.swift in Sources */,
+				EE9BF5D41F7EB4C70053E705 /* InsetTextField.swift in Sources */,
 				EE968F271F7D917F0004E654 /* AppDelegate.swift in Sources */,
 				EE9A960C1F7DCF9D0008274E /* GradientView.swift in Sources */,
 				EE968F291F7D917F0004E654 /* FirstViewController.swift in Sources */,
