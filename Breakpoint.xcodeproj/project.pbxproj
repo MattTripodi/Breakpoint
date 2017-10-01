@@ -20,6 +20,7 @@
 		EE9BF5D41F7EB4C70053E705 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF5D31F7EB4C70053E705 /* InsetTextField.swift */; };
 		EE9BF5D51F7EE1730053E705 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE968F3E1F7DC7C10004E654 /* GoogleService-Info.plist */; };
 		EE9BF5D71F7EE3B00053E705 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF5D61F7EE3B00053E705 /* ShadowView.swift */; };
+		EECE077A1F81646200185DB5 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE07791F81646200185DB5 /* AuthService.swift */; };
 		F0EC25EA61EA5C48FC3A4E9D /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70D9205C6096451052CA38F /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		EE9BF5D11F7EB4660053E705 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		EE9BF5D31F7EB4C70053E705 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		EE9BF5D61F7EE3B00053E705 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		EECE07791F81646200185DB5 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				EE968F401F7DCA4E0004E654 /* DataService.swift */,
+				EECE07791F81646200185DB5 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				EE9BF5D41F7EB4C70053E705 /* InsetTextField.swift in Sources */,
 				EE968F271F7D917F0004E654 /* AppDelegate.swift in Sources */,
 				EE9A960C1F7DCF9D0008274E /* GradientView.swift in Sources */,
+				EECE077A1F81646200185DB5 /* AuthService.swift in Sources */,
 				EE968F291F7D917F0004E654 /* FirstViewController.swift in Sources */,
 				EE968F411F7DCA4E0004E654 /* DataService.swift in Sources */,
 			);
