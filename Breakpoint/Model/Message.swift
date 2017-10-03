@@ -15,6 +15,7 @@ class Message {
 	var content: String {
 		return _content
 	}
+	
 	var senderId: String {
 		return _senderId
 	}
