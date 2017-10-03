@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EE6AD78B1F840423006BC1ED /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AD78A1F840423006BC1ED /* FeedCell.swift */; };
+		EE6AD78D1F840596006BC1ED /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AD78C1F840596006BC1ED /* Message.swift */; };
+		EE6AD7911F8409D5006BC1ED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AD7901F8409D5006BC1ED /* Constants.swift */; };
 		EE968F271F7D917F0004E654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE968F261F7D917F0004E654 /* AppDelegate.swift */; };
 		EE968F291F7D917F0004E654 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE968F281F7D917F0004E654 /* FeedVC.swift */; };
 		EE968F2B1F7D917F0004E654 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE968F2A1F7D917F0004E654 /* GroupsVC.swift */; };
@@ -33,6 +35,8 @@
 		A48BCBE7D2F9EECA9019FD1F /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 		A70D9205C6096451052CA38F /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6AD78A1F840423006BC1ED /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		EE6AD78C1F840596006BC1ED /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		EE6AD7901F8409D5006BC1ED /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EE968F231F7D917F0004E654 /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE968F261F7D917F0004E654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE968F281F7D917F0004E654 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -83,6 +87,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EE6AD78F1F8409C8006BC1ED /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EE6AD7901F8409D5006BC1ED /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		EE968F1A1F7D917F0004E654 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +116,7 @@
 		EE968F251F7D917F0004E654 /* Breakpoint */ = {
 			isa = PBXGroup;
 			children = (
+				EE6AD78F1F8409C8006BC1ED /* Utilities */,
 				EE968F3F1F7DCA3C0004E654 /* Services */,
 				EE968F3D1F7D919C0004E654 /* Extensions */,
 				EE968F3C1F7D91970004E654 /* Model */,
@@ -146,6 +159,7 @@
 		EE968F3C1F7D91970004E654 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EE6AD78C1F840596006BC1ED /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -298,11 +312,13 @@
 				EE9BF5D21F7EB4660053E705 /* LoginVC.swift in Sources */,
 				EE9BF5D41F7EB4C70053E705 /* InsetTextField.swift in Sources */,
 				EE968F271F7D917F0004E654 /* AppDelegate.swift in Sources */,
+				EE6AD7911F8409D5006BC1ED /* Constants.swift in Sources */,
 				EE6AD78B1F840423006BC1ED /* FeedCell.swift in Sources */,
 				EE9A960C1F7DCF9D0008274E /* GradientView.swift in Sources */,
 				EEB71A1F1F82C638007717C8 /* MeVC.swift in Sources */,
 				EEB71A211F82CA64007717C8 /* CreatePostVC.swift in Sources */,
 				EECE077A1F81646200185DB5 /* AuthService.swift in Sources */,
+				EE6AD78D1F840596006BC1ED /* Message.swift in Sources */,
 				EE968F291F7D917F0004E654 /* FeedVC.swift in Sources */,
 				EE968F411F7DCA4E0004E654 /* DataService.swift in Sources */,
 			);
