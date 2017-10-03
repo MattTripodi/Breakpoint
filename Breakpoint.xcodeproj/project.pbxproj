@@ -26,6 +26,7 @@
 		EEB71A1F1F82C638007717C8 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB71A1E1F82C638007717C8 /* MeVC.swift */; };
 		EEB71A211F82CA64007717C8 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB71A201F82CA64007717C8 /* CreatePostVC.swift */; };
 		EEB71A231F82D95D007717C8 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB71A221F82D95D007717C8 /* UIViewExt.swift */; };
+		EECAE4E01F8456020033DAC6 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECAE4DF1F8456020033DAC6 /* CreateGroupsVC.swift */; };
 		EECE077A1F81646200185DB5 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE07791F81646200185DB5 /* AuthService.swift */; };
 		F0EC25EA61EA5C48FC3A4E9D /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70D9205C6096451052CA38F /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		EEB71A1E1F82C638007717C8 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		EEB71A201F82CA64007717C8 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		EEB71A221F82D95D007717C8 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		EECAE4DF1F8456020033DAC6 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		EECE07791F81646200185DB5 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +143,7 @@
 				EE9BF5D11F7EB4660053E705 /* LoginVC.swift */,
 				EEB71A1E1F82C638007717C8 /* MeVC.swift */,
 				EEB71A201F82CA64007717C8 /* CreatePostVC.swift */,
+				EECAE4DF1F8456020033DAC6 /* CreateGroupsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				EE6AD78D1F840596006BC1ED /* Message.swift in Sources */,
 				EE968F291F7D917F0004E654 /* FeedVC.swift in Sources */,
 				EE968F411F7DCA4E0004E654 /* DataService.swift in Sources */,
+				EECAE4E01F8456020033DAC6 /* CreateGroupsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
