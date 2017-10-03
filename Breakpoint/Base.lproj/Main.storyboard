@@ -131,7 +131,7 @@
                                     <constraint firstAttribute="height" constant="70" id="er5-8q-Npm"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="94D-in-vKH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="94D-in-vKH">
                                 <rect key="frame" x="20" y="90" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Opd-nJ-Lop"/>
@@ -193,7 +193,7 @@
                         <outlet property="emailLbl" destination="1EO-VD-PZj" id="LbK-4e-jKa"/>
                         <outlet property="profileImage" destination="94D-in-vKH" id="BL0-Gz-VvX"/>
                         <outlet property="sendBtn" destination="nj1-59-SRf" id="KOk-6w-DUJ"/>
-                        <outlet property="textView" destination="Anh-rR-vh8" id="Bpz-0H-ge6"/>
+                        <outlet property="textView" destination="Anh-rR-vh8" id="nTh-Gg-3lO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wSu-a1-mcl" userLabel="First Responder" sceneMemberID="firstResponder"/>

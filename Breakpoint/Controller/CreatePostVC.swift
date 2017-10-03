@@ -17,11 +17,12 @@ class CreatePostVC: UIViewController {
 	@IBOutlet weak var textView: UITextView!
 	@IBOutlet weak var sendBtn: UIButton!
 	
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
 		textView.delegate = self
-    }
+		sendBtn.bindToKeyboard()
+	}
 	
 	@IBAction func sendBtnWasPressed(_ sender: Any) {
 		if textView.text != nil && textView.text != "Say something here..." {
