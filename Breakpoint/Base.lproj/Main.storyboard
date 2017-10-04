@@ -108,7 +108,7 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="TGJ-A1-N5R" secondAttribute="trailing" constant="10" id="z6y-W5-M9T"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.12993412679999999" green="0.13703697940000001" blue="0.16265343530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.12941176469999999" green="0.13725490200000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="contentLbl" destination="Whs-zA-BgK" id="OL8-Sb-Me9"/>
                                             <outlet property="emailLbl" destination="xIQ-Jq-3eL" id="X0Y-6K-5Qv"/>
