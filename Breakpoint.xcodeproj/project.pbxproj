@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE2365B51F8BDD4B001ABEA0 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2365B41F8BDD4B001ABEA0 /* GroupFeedCell.swift */; };
 		EE2365B71F8BE830001ABEA0 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2365B61F8BE830001ABEA0 /* GroupFeedVC.swift */; };
+		EE2365B91F8C03FD001ABEA0 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2365B81F8C03FD001ABEA0 /* UIViewControllerExt.swift */; };
 		EE6AD78B1F840423006BC1ED /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AD78A1F840423006BC1ED /* FeedCell.swift */; };
 		EE6AD78D1F840596006BC1ED /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AD78C1F840596006BC1ED /* Message.swift */; };
 		EE6AD7911F8409D5006BC1ED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AD7901F8409D5006BC1ED /* Constants.swift */; };
@@ -42,6 +43,7 @@
 		A70D9205C6096451052CA38F /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2365B41F8BDD4B001ABEA0 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		EE2365B61F8BE830001ABEA0 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
+		EE2365B81F8C03FD001ABEA0 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		EE6AD78A1F840423006BC1ED /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		EE6AD78C1F840596006BC1ED /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		EE6AD7901F8409D5006BC1ED /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				EEB71A221F82D95D007717C8 /* UIViewExt.swift */,
+				EE2365B81F8C03FD001ABEA0 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				EE9BF5D01F7EB3420053E705 /* AuthVC.swift in Sources */,
 				EE968F2B1F7D917F0004E654 /* GroupsVC.swift in Sources */,
 				EE9BF5D21F7EB4660053E705 /* LoginVC.swift in Sources */,
+				EE2365B91F8C03FD001ABEA0 /* UIViewControllerExt.swift in Sources */,
 				EE9BF5D41F7EB4C70053E705 /* InsetTextField.swift in Sources */,
 				EE968F271F7D917F0004E654 /* AppDelegate.swift in Sources */,
 				EE6AD7911F8409D5006BC1ED /* Constants.swift in Sources */,

@@ -27,7 +27,7 @@ class Group {
 		return _key
 	}
 	
-	var memeberCount: Int {
+	var memberCount: Int {
 		return _memberCount
 	}
 	
